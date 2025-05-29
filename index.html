@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- meta tags -->
+	<meta name="title" content="Bootstrap5">
+	<meta name="description" content="Bootstrap5">
+	<meta name="keywords" content="blog, article, education">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="1 days">
+	<meta name="author" content="Muhammad Tanvir Ahammed Shium Khan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap 5 Grid Layout</title>
+
+	<!-- font links -->
+
+	<!-- css links -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>  
+	<h1 class="text-center">Bootstrap 5 Grid</h1>
+
+
+
+
+
+
+	<h3 class="text-center">Grid system</h3>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<h3 class="text-center">Equal-width</h3>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<h3 class="text-center">One column width</h3>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col-6">
+				<div class="box"></div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col-5">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<h3 class="text-center">Variable width content</h3>
+	<div class="container text-center">
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-2">
+				<div class="box"></div>
+			</div>
+			<div class="col-md-auto">
+				<div class="box"></div>
+			</div>
+			<div class="col col-lg-2">
+				<div class="box"></div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col-md-auto">
+				<div class="box"></div>
+			</div>
+			<div class="col col-lg-2">
+				<div class="box"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<h3 class="text-center">All breakpoints</h3>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-8">
+				<div class="box"></div>
+			</div>
+			<div class="col-4">
+				<div class="box"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<h3 class="text-center">Stacked to horizontal</h3>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="box"></div>
+			</div>
+			<div class="col-sm-4">
+				<div class="box"></div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm">
+				<div class="box">
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="box"></div>
+			</div>
+			<div class="col-sm">
+				<div class="box"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<h3 class="text-center">Mix and match</h3>
+	<div class="container text-center">
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+	<div class="col-md-8">
+		<div class="box"></div>
+	</div>
+	<div class="col-6 col-md-4">
+		<div class="box"></div>
+	</div>
+</div>
+
+
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<div class="row">
+	<div class="col-6 col-md-4">
+		<div class="box"></div>
+	</div>
+	<div class="col-6 col-md-4">
+		<div class="box"></div>
+	</div>
+	<div class="col-6 col-md-4">
+		<div class="box"></div>
+	</div>
+</div>
+
+
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+	<div class="col-6">
+		<div class="box"></div>
+	</div>
+	<div class="col-6">
+		<div class="box"></div>
+	</div>
+	
+</div>
+</div>
+
+
+
+
+
+
+<h3 class="text-center">Row columns</h3>
+<div class="container text-center">
+	<div class="row row-cols-2">
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+<div class="container text-center">
+	<div class="row row-cols-3">
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container text-center">
+	<div class="row row-cols-4">
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<div class="container text-center">
+	<div class="row row-cols-4">
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col-6">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div class="container text-center">
+	<div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+		<div class="col">
+			<div class="box"></div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="container text-center">
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="box"></div>
+		</div>
+		<div class="col-sm-9">
+			<div class="box"></div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-8 col-sm-6">
+			<div class="box"></div>
+		</div>
+		<div class="col-4 col-sm-6">
+			<div class="box"></div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<h1 class="text-center">Columns</h1>
+	<h3 class="text-center">Vertical alignment</h3>
+
+
+	<div class="container text-center">
+		<div class="row align-items-start">
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<h3 class="text-center">Horizontal alignment</h3>
+	<div class="container text-center">
+		<div class="row justify-content-start">
+			<div class="col-4"><div class="box"></div> 
+		</div>
+		<div class="col-4"><div class="box"></div> 
+	</div>
+
+
+	<div class="row justify-content-center"><div class="col-4"><div class="box"></div>
+
+</div>
+<div class="col-4"><div class="box"></div>
+
+</div>
+</div>
+
+<div class="row justify-content-end"><div class="col-4"><div class="box"></div>
+
+</div>
+<div class="col-4"><div class="box"></div>
+
+</div>
+</div>
+
+<div class="row justify-content-around"><div class="col-4"><div class="box"></div>
+
+</div>
+<div class="col-4"><div class="box"></div>
+
+</div>
+</div>
+
+<div class="row justify-content-between"><div class="col-4"><div class="box"></div>
+
+</div>
+<div class="col-4"><div class="box"></div>
+
+</div>
+</div>
+
+<div class="row justify-content-evenly"><div class="col-4"><div class="box"></div>
+
+</div>
+<div class="col-4"><div class="box"></div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<h3 class="text-center">Column wrapping</h3>
+
+<div class="container">
+	<div class="row">
+		<div class="col-9"><div class="box"></div></div>
+		<div class="col-4"><div class="box"></div> <br></div>
+		<div class="col-6"><div class="box"></div><br></div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 class="text-center">Offset classes</h3>
+<div class="container text-center">
+
+	<div class="row">
+		<div class="col-md-4"><div class="box"></div></div>
+
+
+		<div class="col-md-4 offset-md-4"><div class="box"></div></div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-3 offset-md-3"><div class="box"></div> 
+	</div>
+
+	<div class="col-md-3 offset-md-3"><div class="box"></div> </div>
+</div>
+
+<div class="row">
+	<div class="col-md-6 offset-md-3">
+		<div class="box"></div> </div>
+	</div>
+</div>
+
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="container text-center">
+
+	<div class="row">
+		<div class="col-sm-5 col-md-6">
+			<div class="box"></div>
+		</div>
+		<div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"><div class="box"></div></div></div>
+
+
+		<div class="row">
+			<div class="col-sm-6 col-md-5 col-lg-6"><div class="box"></div></div>
+			<div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0"><div class="box"></div></div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<h3 class="text-center">Margin utilities</h3>
+
+	<div class="container text-center">
+
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="box"></div></div>
+				<div class="col-md-4 ms-auto"><div class="box"></div></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 ms-md-auto">
+				<div class="box"></div></div>
+				<div class="col-md-3 ms-md-auto">
+				<div class="box"></div></div>
+			</div>
+			<div class="row">
+				<div class="col-auto me-auto"><div class="box"></div> </div>
+				<div class="col-auto"><div class="box"></div></div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+<h1 class="text-center">CSS Grid</h1>
+
+
+<h3 class="text-center">Auto columns</h3>
+
+	<div class="grid text-center">
+		<div class="row">
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+<div class="col"><div class="box"></div></div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+<!-- js links -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
